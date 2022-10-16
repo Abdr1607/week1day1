@@ -1,0 +1,77 @@
+.header {
+    background: url("images/central_park.jpg");
+    min-height: 70vh;
+    background-position: center;
+    background-size: contain;
+}
+.title {
+    font-size: 3rem;
+    padding-left: 15vh;
+    padding-top: 10vh;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title2 {
+    font-size: 1rem;
+    padding-left: 15vh;
+    padding-top: 10vh;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav {
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+}
+ul { 
+    display: inline;
+    padding: 25px
+}
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+main {
+    padding: 25px;
+}
+h1 {
+    color: purple;
+}
+footer {
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+}
+.footer {
+    padding: 25px;
+    color: white;
+}
+
+
+caption {
+    border: 1px solid black;
+    padding: 20px;
+    color: red;
+}
+thead *{
+    padding-top: 15px;
+}
+tbody *{
+    padding: 15px;
+}
+tfoot *  {
+    padding: 15px;
+}
+fieldset {
+    padding: 10px;
+}
